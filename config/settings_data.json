@@ -9,7 +9,9 @@
 */
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/NOW_DoubleDiamond_Black_2x_0de7c86e-a7e9-484f-8101-4ca16a7a327c.png",
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/NOW_Symbol_Black_Gray_2x_2abfb0eb-0e45-4e18-b795-bf1c3fefffa7.png",
     "type_header_font": "assistant_n7",
     "heading_scale": 100,
     "type_body_font": "questrial_n4",
