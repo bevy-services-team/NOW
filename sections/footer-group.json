@@ -4,15 +4,46 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_QcqWtF": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>SATISFY®<\/strong>",
+            "subtext": "<p>Since launching in 2015, Satisfy® develops technical equipment that reduce distractions to help runners unlock the High.<\/p>"
+          }
+        },
+        "link_list_3UBd3G": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer"
+          }
+        },
+        "link_list_XEimJn": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer-help"
+          }
+        }
+      },
+      "block_order": [
+        "text_QcqWtF",
+        "link_list_3UBd3G",
+        "link_list_XEimJn"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "newsletter_enable": false,
+        "newsletter_bg": "#fefff2",
+        "newsletter_heading": "New Drops",
+        "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our Privacy Notice.",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": true,
         "margin_top": 0,
         "padding_top": 36,

@@ -69,3 +69,9 @@
 .newsletter-form__button .icon {
   width: 1.5rem;
 }
+
+/* custom */
+.footer__newsletter.newsletter-form {
+  margin: 0;
+  max-width: 100%;
+}
