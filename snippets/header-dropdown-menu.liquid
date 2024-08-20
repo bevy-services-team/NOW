@@ -17,9 +17,9 @@
                 class="header__menu-item list-menu__item link focus-inset"
               >
                 <span
-                  {%- if link.child_active %}
+                  {% comment %} {%- if link.child_active %}
                     class="header__active-menu-item"
-                  {% endif %}
+                  {% endif %} {% endcomment %}
                 >
                   {{- link.title | escape -}}
                 </span>
@@ -89,9 +89,9 @@
             {% endif %}
           >
             <span
-              {%- if link.current %}
+              {% comment %} {%- if link.current %}
                 class="header__active-menu-item"
-              {% endif %}
+              {% endif %} {% endcomment %}
             >
               {{- link.title | escape -}}
             </span>
