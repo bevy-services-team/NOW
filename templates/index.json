@@ -1,5 +1,61 @@
 {
   "sections": {
+    "image_banner_BYwpLM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_EfQh9N": {
+          "type": "heading",
+          "settings": {
+            "heading": "Now",
+            "heading_size": "hxxl"
+          }
+        },
+        "text_mC9wzM": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"\/collections\/all\" title=\"All products\"><strong>Motion Research<\/strong><\/a>",
+            "text_style": "subtitle"
+          }
+        },
+        "text_RAxkQh": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"\/collections\/origins\" title=\"Origins\"><strong>Origins<\/strong><\/a>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_ndMgQt": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ENTER",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EfQh9N",
+        "text_mC9wzM",
+        "text_RAxkQh",
+        "buttons_ndMgQt"
+      ],
+      "settings": {
+        "show_image": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "newsletter_3LtTxi": {
       "type": "newsletter",
       "settings": {
@@ -13,6 +69,7 @@
     }
   },
   "order": [
+    "image_banner_BYwpLM",
     "newsletter_3LtTxi"
   ]
 }

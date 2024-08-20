@@ -401,7 +401,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__box > * + .banner__text {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
@@ -488,5 +488,20 @@
   .banner--desktop-transparent .inline-richtext a:hover,
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
+  }
+}
+
+/* custom css */
+.banner__box a {
+  text-decoration: none !important;
+}
+
+.banner__heading.separator_dash {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 750px) {
+  .banner__heading.hxxl {
+    font-size: 100px;
   }
 }
