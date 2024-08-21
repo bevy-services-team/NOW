@@ -27,6 +27,10 @@
           endif
         endif
       -%}
+
+      {% assign option_name = option.name | downcase %}
+
+
       {%- if picker_type == 'swatch' -%}
         <fieldset class="js product-form__input product-form__input--swatch">
           <legend class="form__label">
@@ -40,6 +44,22 @@
             option: option,
             block: block,
             picker_type: picker_type
+          %}
+        </fieldset>
+
+      {%- elsif option_name contains 'color' -%}
+        <fieldset class="js product-form__input product-form__input--swatch">
+          <legend class="form__label">
+            {{ option.name }}:
+            <span data-selected-value>
+              {{- option.selected_value -}}
+            </span>
+          </legend>
+          {% render 'product-variant-options',
+            product: product,
+            option: option,
+            block: block,
+            picker_type: 'swatch'
           %}
         </fieldset>
       {%- elsif picker_type == 'button' -%}

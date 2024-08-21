@@ -1,15 +1,24 @@
 {
   "sections": {
+    "breadcrumb_k44zNk": {
+      "type": "breadcrumb",
+      "settings": {
+        "custom_title": "",
+        "color_active_link": "#000000",
+        "color_active_hover_link": "#000000",
+        "color_separator": "#000000",
+        "color_text": "#000000",
+        "padding_top": 17,
+        "padding_top_tablet": 17,
+        "padding_top_mobile": 17,
+        "padding_bottom": 17,
+        "padding_bottom_tablet": 17,
+        "padding_bottom_mobile": 17
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -35,41 +44,47 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible_tab_gzCTpR": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Usage",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.usage | metafield_tag }}<\/p>",
+            "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_FGAHty": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Features",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "collapsible_tab_gzCTpR",
+        "collapsible_tab_FGAHty"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -81,23 +96,94 @@
       "type": "related-products",
       "settings": {
         "heading": "You may also like",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_JUb73C": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Emy6Qj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/question-circle-svgrepo-com.svg",
+            "title": "Get Help Buying",
+            "text": "<p>If you have any questions about our gear, get in touch.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/collections\/shop-new-arrivals\/products\/techsilk-8-shorts-6?variant=48790750495048#\">Chat with us<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Uhnzxt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-open-2-svgrepo-com.svg",
+            "title": "Free FedEx® Delivery",
+            "text": "<p>All prices include customs duties and taxes. Orders above 200 EUR ship for free.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/pages\/faq\">Learn more<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eVKEEW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/return-svgrepo-com.svg",
+            "title": "Free & Easy Returns",
+            "text": "<p>Free returns on all orders within 14 days from the delivery date.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/pages\/faq\">Learn more<\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Emy6Qj",
+        "column_Uhnzxt",
+        "column_eVKEEW"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "horizontal_image": true,
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "newsletter_yyCjXM": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_heading": "New Drops",
+        "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our Privacy Notice.",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
+    "breadcrumb_k44zNk",
     "main",
-    "related-products"
+    "related-products",
+    "multicolumn_JUb73C",
+    "newsletter_yyCjXM"
   ]
 }

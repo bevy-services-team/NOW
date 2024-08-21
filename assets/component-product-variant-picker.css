@@ -144,9 +144,18 @@ variant-selects {
   margin: 0.7rem 1.2rem 0.2rem 0;
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .product-form__input--swatch .swatch-input__input + .swatch-input__label {
     --swatch-input--size: 2.8rem;
   }
-}
+} */
 /* End custom styles for Swatch display type */
+
+/* custom css */
+.product-form__input--pill input[type=radio] + label {
+  min-height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}

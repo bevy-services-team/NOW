@@ -20,6 +20,6 @@
 }
 
 .swatch--unavailable {
-  border-style: dashed;
-  border-color: rgba(var(--color-foreground), 0.5);
+  /* border-style: dashed; */
+  border-color: rgba(var(--color-foreground), 0);
 }

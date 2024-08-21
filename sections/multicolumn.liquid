@@ -75,7 +75,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container{% if section.settings.horizontal_image %} multicolumn-card-horizontal{% endif %}">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -230,6 +230,12 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "horizontal_image",
+      "label": "Place image horizontally",
+      "default": false
     },
     {
       "type": "select",
