@@ -31,7 +31,7 @@
 
 
 <div class="section-breadcrumbs section-{{ section.id }}-padding{% if template == 'product' %} show_always{% endif %}">
-  <div class="page-width">
+  <div class="page-width{% if section.settings.section_wide %} page-width-wide{% endif %}">
     <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb navigation">
       <a
         href="{{ routes.root_url }}"
@@ -110,6 +110,12 @@
     "name": "Breadcrumbs",
     "class": "section",
     "settings": [
+        {
+          "type": "checkbox",
+          "id": "section_wide",
+          "label": "Make section wide",
+          "default": true
+        },
         {
             "type": "text",
             "id": "custom_title",
