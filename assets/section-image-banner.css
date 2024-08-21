@@ -435,6 +435,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .banner__box .banner__heading + * {
@@ -500,8 +501,22 @@
   padding-bottom: 20px;
 }
 
+.banner__buttons {
+  margin-top: 25px;
+}
+
+.banner__box {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 750px) {
   .banner__heading.hxxl {
     font-size: 100px;
+  }
+
+  .banner__box {
+    min-width: 55vw;
   }
 }

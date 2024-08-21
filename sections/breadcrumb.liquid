@@ -1,0 +1,219 @@
+{{ 'breadcrumb.css' | asset_url | stylesheet_tag }}
+{%- capture delimeter -%}<span class="breadcrumb-delimeter" aria-hidden="true">/</span>{%- endcapture -%}
+
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+      --bread-active-link: {{ section.settings.color_active_link }};
+      --bread-active-hover-link: {{ section.settings.color_active_hover_link }};
+      --bread-separator: {{ section.settings.color_separator }};
+      --bread-text: {{ section.settings.color_text }};
+  }
+
+
+  @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top_tablet }}px;
+      padding-bottom: {{ section.settings.padding_bottom_tablet }}px;
+      }
+  }
+
+
+  @media screen and (min-width: 990px) {
+      .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+  }
+{%- endstyle -%}
+
+
+<div class="section-breadcrumbs section-{{ section.id }}-padding{% if template == 'product' %} show_always{% endif %}">
+  <div class="page-width">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb navigation">
+      <a
+        href="{{ routes.root_url }}"
+        title="Home"
+      >
+        Home
+      </a>
+      {%- case template.name -%}
+        {%- when 'page' -%}
+          {{ delimeter }}
+          <span>
+            {%- if section.settings.custom_title != blank -%}
+              {{ section.settings.custom_title }}
+            {%- else -%}
+              {{ page.title }}
+            {%- endif -%}
+          </span>
+
+
+        {%- when 'product' -%}
+          {%- if collection and collection.handle -%}
+            {{ delimeter }}
+            {{ collection.title | link_to: collection.url }}
+          {%- endif -%}
+          {{ delimeter }}
+          <span>{{ product.title }}</span>
+
+
+        {%- when 'collection' and collection.handle -%}
+          {{ delimeter }}
+          {%- if current_tags -%}
+            {%- capture url -%}/collections/{{ collection.handle }}{%- endcapture -%}
+            {{ collection.title | link_to: url }}
+            {{ delimeter }}
+            <span>{{ current_tags | join: ' + ' }}</span>
+          {%- else -%}
+            <span>{{ collection.title }}</span>
+          {%- endif -%}
+
+
+        {%- when 'blog' -%}
+          {{ delimeter }}
+          {%- if current_tags -%}
+            {{ blog.title | link_to: blog.url }}
+            {{ delimeter }}
+            <span>{{ current_tags | join: ' + ' }}</span>
+          {%- else -%}
+            <span>{{ blog.title }}</span>
+          {%- endif -%}
+
+
+        {%- when 'article' -%}
+          {{ delimeter }}
+          {{ blog.title | link_to: blog.url }}
+          {{ delimeter }}
+          <span>{{ article.title }}</span>
+
+
+        {%- else -%}
+          {{ delimeter }}
+          <span>
+            {%- if section.settings.custom_title != blank -%}
+              {{ section.settings.custom_title }}
+            {%- else -%}
+              {{ page_title }}
+            {%- endif -%}
+          </span>
+      {%- endcase -%}
+    </nav>
+  </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Breadcrumbs",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "custom_title",
+            "label": "Custom title",
+            "info": "Keep this field empty if you want to show page title."
+        },
+        {
+            "type": "color",
+            "id": "color_active_link",
+            "label": "Active text",
+            "default": "#cbcbcb"
+        },
+        {
+            "type": "color",
+            "id": "color_active_hover_link",
+            "label": "Active text hover",
+            "default": "#032567"
+        },
+        {
+            "type": "color",
+            "id": "color_separator",
+            "label": "Separator",
+            "default": "#cbcbcb"
+        },
+        {
+            "type": "color",
+            "id": "color_text",
+            "label": "Text",
+            "default": "#cbcbcb"
+        },
+    {
+      "type": "header",
+      "content": "Padding Top"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "padding_top_tablet",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Tablet",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile",
+      "default": 17
+    },
+    {
+      "type": "header",
+      "content": "Padding Bottom"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_tablet",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Tablet",
+      "default": 17
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile",
+      "default": 17
+    }
+    ],
+    "presets": [
+        {
+            "name": "Breadcrumbs"
+        }
+    ],
+    "templates": ["404", "article", "blog", "cart", "collection", "list-collections", "page", "product", "search"]
+}
+{% endschema %}

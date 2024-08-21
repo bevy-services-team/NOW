@@ -231,3 +231,22 @@
     display: list-item;
   }
 }
+
+/* custom */
+.multicolumn-card-horizontal {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.multicolumn-card-horizontal .multicolumn-card__image-wrapper--third-width {
+  width: 28px;
+  min-width: 28px;
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+.background-none .multicolumn-card-horizontal .multicolumn-card__image-wrapper+.multicolumn-card__info {
+  padding-top: 0;
+}
+
+
