@@ -18,12 +18,12 @@
         "color_active_hover_link": "#000000",
         "color_separator": "#000000",
         "color_text": "#000000",
-        "padding_top": 36,
-        "padding_top_tablet": 36,
-        "padding_top_mobile": 17,
-        "padding_bottom": 17,
-        "padding_bottom_tablet": 17,
-        "padding_bottom_mobile": 17
+        "padding_top": 30,
+        "padding_top_tablet": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom": 25,
+        "padding_bottom_tablet": 25,
+        "padding_bottom_mobile": 25
       }
     },
     "main": {
