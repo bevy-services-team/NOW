@@ -183,7 +183,7 @@
         "color_scheme": "scheme-3",
         "newsletter_heading": "New Drops",
         "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Notice<\/a>.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice<\/strong><\/a>.",
         "padding_top": 0,
         "padding_bottom": 0
       }
