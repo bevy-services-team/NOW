@@ -36,7 +36,7 @@
         "buttons_ndMgQt": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "ENTER",
+            "button_label_1": "Enter",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
