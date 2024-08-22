@@ -512,7 +512,8 @@
 }
 
 .banner__box .button {
-  border: 1px solid #000;
+  --border-offset: 1px;
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(0,0,0,1),0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button),var(--alpha-button-background));
 }
 
 @media (min-width: 750px) {
