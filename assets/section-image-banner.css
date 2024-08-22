@@ -511,8 +511,8 @@
   justify-content: center;
 }
 
-.banner__box .button
-.banner__box .button:focus
+.banner__box .button,
+.banner__box .button:focus,
 .banner__box .button:focus-visible {
   outline: 1px solid #000;
 }
