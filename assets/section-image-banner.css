@@ -511,12 +511,10 @@
   justify-content: center;
 }
 
-.banner__box .button:after,
-.banner__box .button:hover:after,
-.banner__box .button:focus:after
-.banner__box .button:focus-visible:after {
-  --border-offset: 1px;
-  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(0,0,0,1),0 0 0 calc(var(--buttons-border-width) + 1px) rgba(0,0,0,1);
+.banner__box .button
+.banner__box .button:focus
+.banner__box .button:focus-visible {
+  outline: 1px solid #000;
 }
 
 @media (min-width: 750px) {
