@@ -3701,3 +3701,7 @@ details-disclosure > details {
 .header_transparent .section-header:not(.scrolled-past-header):not(:hover) .header-wrapper {
   background: transparent !important;
 }
+
+.quantity__rules-cart {
+  display: none;
+}
