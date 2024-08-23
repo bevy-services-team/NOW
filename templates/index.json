@@ -53,6 +53,7 @@
       ],
       "settings": {
         "show_image": true,
+        "image_2": "shopify:\/\/shop_images\/lemon-on-yellow.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
