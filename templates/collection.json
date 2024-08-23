@@ -22,14 +22,14 @@
         "text_7XipfU": {
           "type": "text",
           "settings": {
-            "text": "<a href=\"\/collections\/motion-research\" title=\"Motion Research\"><strong>Motion Research<\/strong><\/a>",
+            "text": "<strong>Motion Research<\/strong>",
             "text_style": "subtitle"
           }
         },
         "text_4Ubgt6": {
           "type": "text",
           "settings": {
-            "text": "<a href=\"\/collections\/origins\" title=\"Origins\"><strong>Origins<\/strong><\/a>",
+            "text": "<strong>Origins<\/strong>",
             "text_style": "subtitle"
           }
         }
