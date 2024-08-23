@@ -3590,7 +3590,7 @@ details-disclosure > details {
 
 .news_heading {
   font-size: 60px !important;
-  margin-bottom: 15px !important;
+  /* margin-bottom: 15px !important; */
 }
 
 .footer_newsletter_form .newsletter-form__field-wrapper {
@@ -3704,4 +3704,10 @@ details-disclosure > details {
 
 .quantity__rules-cart {
   display: none;
+}
+
+@media (max-width: 749px) {
+  .news_heading {
+    font-size: 28px !important;
+  }
 }
