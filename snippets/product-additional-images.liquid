@@ -1,0 +1,9 @@
+{% if product.metafields.custom.additional_images != blank %}
+<div class="pdp_additional_images {{ class }}">
+    {% for image in product.metafields.custom.additional_images.value %}
+        <div class="pdp_addi_img">
+            {{ image | image_url: width: '990' | image_tag }}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}

@@ -679,9 +679,14 @@ class ModalOpener extends HTMLElement {
     super();
 
     const button = this.querySelector('button');
+    const highlight = this.getAttribute('data-highlight');
 
     if (!button) return;
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
+      // product highlights modal on pdp
+      if(highlight) document.querySelector('.'+ highlight).click();
+
+      // open modal
       const modal = document.querySelector(this.getAttribute('data-modal'));
       if (modal) modal.show(button);
     });
@@ -1266,3 +1271,25 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+class CustomTab extends HTMLElement {
+  constructor(){
+    super();
+    this.buttons = this.querySelectorAll('.tab_btn');
+    this.contents = this.querySelectorAll('.tab_content');
+
+    this.buttons.forEach(btn => {
+      btn.addEventListener('click', event => this.onButtonClick(event));
+    })
+  }
+
+  onButtonClick(event){
+    const currentContent = event.target.getAttribute('data-control');
+    this.buttons.forEach(btn => btn.classList.remove('active'));
+    this.contents.forEach(content => content.classList.remove('active'));
+    event.target.classList.add('active');
+    this.querySelector('.' + currentContent).classList.add('active');
+  }
+}
+
+customElements.define('custom-tab', CustomTab)

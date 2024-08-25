@@ -316,4 +316,15 @@
       </button>
     </slider-component>
   {%- endif -%}
+
+  {% render 'product-additional-images', 
+    product: product, 
+    class: 'small-hide medium-hide',
+  %}
+
+  {% render 'product-accordion', 
+    product: product, 
+    class: 'small-hide medium-hide',
+    section: section
+  %}
 </media-gallery>
