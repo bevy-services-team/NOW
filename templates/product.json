@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "breadcrumb_k44zNk": {
@@ -39,6 +30,11 @@
           "settings": {
           }
         },
+        "product_highlights_RWG8Cb": {
+          "type": "product_highlights",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -58,15 +54,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "collapsible_tab_gzCTpR": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Usage",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.usage | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_FGAHty": {
           "type": "collapsible_tab",
           "settings": {
@@ -75,16 +62,46 @@
             "content": "{{ product.metafields.custom.features | metafield_tag }}",
             "page": ""
           }
+        },
+        "collapsible_tab_gzCTpR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.shipping_returns | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_keR8QG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing & Fit",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.sizing_fit | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_rYY7Kq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.warranty | metafield_tag }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "product_highlights_RWG8Cb",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "collapsible_tab_FGAHty",
         "collapsible_tab_gzCTpR",
-        "collapsible_tab_FGAHty"
+        "collapsible_tab_keR8QG",
+        "collapsible_tab_rYY7Kq"
       ],
       "settings": {
         "enable_sticky_info": true,

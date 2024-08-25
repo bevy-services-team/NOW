@@ -8,6 +8,10 @@
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
+img {
+  max-width: 100%;;
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -3706,6 +3710,11 @@ details-disclosure > details {
 .quantity__rules-cart {
   display: none;
 }
+
+.tab_content:not(.active) {
+  display: none;
+}
+
 
 @media (max-width: 749px) {
   .news_heading {

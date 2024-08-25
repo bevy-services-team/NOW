@@ -1,0 +1,88 @@
+{% if product.metafields.custom.product_highlights != blank %}
+    <div class="product-highlights" {{ block.shopify_attributes }}>
+        {% for item in product.metafields.custom.product_highlights.value %}
+            <modal-opener
+                class="product-popup-modal__opener"
+                data-modal="#PopupModal-{{ block.id }}"
+                data-highlight="js_product_highlight_{{ item | handle }}"
+            >
+                <button
+                    id="ProductPopup-{{ block.id }}_{{ forloop.index }}"
+                    class="product-popup-modal__button product-highlight-btn"
+                    type="button"
+                    aria-haspopup="dialog"
+                >
+                    {{ item }}
+                </button>
+            </modal-opener>
+        {% endfor %}
+    </div>
+
+    {% assign popup_highlight = section.blocks | where: 'type', 'product_highlights' %}
+    {%- for block in popup_highlight -%}
+        <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal product_hightlight_modal" {{ block.shopify_attributes }}>
+            <div
+            role="dialog"
+            aria-label="Product Highlights"
+            aria-modal="true"
+            class="product-popup-modal__content modal_product_highlight"
+            tabindex="-1"
+            >
+                <button
+                    id="ModalClose-{{ block.id }}"
+                    type="button"
+                    class="product-popup-modal__toggle"
+                    aria-label="{{ 'accessibility.close' | t }}"
+                >
+                    {% render 'icon-close' %}
+                </button>
+                <div class="product-popup-modal__content-info">
+                    {% comment %} <div 
+                        id="highlight_loader" 
+                        class="highlight_loader"
+                    >
+                        {%- render 'loading-spinner', class: 'loading__spinner' -%}
+                    </div> {% endcomment %}
+                    <custom-tab>
+                        <div class="tab_contents_area">
+                            {% for item in product.metafields.custom.product_highlights.value %}
+                                <div class="tab_content tab_content_{{ item | handle }}{% if forloop.first %} active{% endif %} center">
+                                    <div class="highlight_heading">
+                                        <span class="product-highlight-btn">
+                                            {{ item }}
+                                        </span>
+                                    </div>
+                                    <div class="highlight_text">
+                                        {% for value in shop.metaobjects.product_highlights.values %}
+                                            {% liquid 
+                                                assign titles = value.title.value
+                                                assign descriptions = value.description.value
+                                            %}
+                                            {% for title in titles %}
+                                                {% if title == item %}
+                                                    {{ descriptions[forloop.index0] }}
+                                                {% endif %}
+                                            {% endfor %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="tab_buttons">
+                            {% for item in product.metafields.custom.product_highlights.value %}
+                                <button
+                                    class="product-highlight-btn tab_btn{% if forloop.first %} active{% endif %} js_product_highlight_{{ item | handle }}"
+                                    type="button"
+                                    aria-haspopup="dialog" 
+                                    aria-haspopup="dialog" data-control="tab_content_{{ item | handle }}"
+                                >
+                                    {{ item }}
+                                </button>
+                            {% endfor %}
+                        </div>
+                    </custom-tab>
+                </div>
+            </div>
+        </modal-dialog>
+    {%- endfor -%}
+{% endif %}

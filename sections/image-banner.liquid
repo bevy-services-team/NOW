@@ -42,8 +42,12 @@
     assign half_width = '100vw'
     assign stacked_sizes = '100vw'
   else
+    comment
     assign half_width = '50vw'
     assign stacked_sizes = '(min-width: 750px) 50vw, 100vw'
+    endcomment
+    assign half_width = '100vw'
+    assign stacked_sizes = '100vw'
   endif
   assign fetch_priority = 'auto'
   if section.index == 1
@@ -53,11 +57,11 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner{% if section.settings.image_height == 'full' %} banner_height{% endif %} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.show_image -%}
     {%- if section.settings.image != blank -%}
-      <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <div class="banner__media media{% if section.settings.image_2 != blank %} small-hide{% endif %}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-halffff{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {%- liquid
           assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
           if section.settings.image_2 != blank
@@ -89,7 +93,7 @@
       </div>
     {%- endif -%}
     {%- if section.settings.image_2 != blank -%}
-      <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <div class="banner__media media medium-hide large-up-hide{% if section.settings.image != blank %} banner__media-halffff{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {%- liquid
           assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
           if section.settings.image != blank
@@ -188,12 +192,12 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "t:sections.image-banner.settings.image.label"
+      "label": "Image for desktop"
     },
     {
       "type": "image_picker",
       "id": "image_2",
-      "label": "t:sections.image-banner.settings.image_2.label"
+      "label": "Image for mobile"
     },
     {
       "type": "range",
@@ -224,6 +228,10 @@
         {
           "value": "large",
           "label": "t:sections.image-banner.settings.image_height.options__4.label"
+        },
+        {
+          "value": "full",
+          "label": "Full"
         }
       ],
       "default": "medium",
@@ -297,14 +305,14 @@
           "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
         }
       ],
-      "default": "center",
+      "default": "left",
       "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "scheme-2"
     },
     {
       "type": "header",
@@ -355,19 +363,19 @@
           "label": "t:sections.image-banner.settings.mobile_content_alignment.options__3.label"
         }
       ],
-      "default": "center",
+      "default": "left",
       "label": "t:sections.image-banner.settings.mobile_content_alignment.label"
     },
     {
       "type": "checkbox",
       "id": "stack_images_on_mobile",
-      "default": true,
+      "default": false,
       "label": "t:sections.image-banner.settings.stack_images_on_mobile.label"
     },
     {
       "type": "checkbox",
       "id": "show_text_below",
-      "default": true,
+      "default": false,
       "label": "t:sections.image-banner.settings.show_text_below.label"
     }
   ],
