@@ -3619,6 +3619,10 @@ details-disclosure > details {
   box-shadow: none !important;
 }
 
+.custom_field .btn {
+  font-family: var(--font-heading-family);
+}
+
 .footer_newsletter_form .custom_field input {
   min-width: 372px;
   background: transparent;
