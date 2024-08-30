@@ -12,31 +12,24 @@
     "image_banner_BYwpLM": {
       "type": "image-banner",
       "blocks": {
-        "heading_EfQh9N": {
-          "type": "heading",
-          "settings": {
-            "heading": "Now",
-            "heading_size": "hxxl"
-          }
-        },
         "text_mC9wzM": {
           "type": "text",
           "settings": {
-            "text": "<strong>Motion Research<\/strong>",
+            "text": "",
             "text_style": "subtitle"
           }
         },
         "text_RAxkQh": {
           "type": "text",
           "settings": {
-            "text": "<strong>Origins<\/strong>",
+            "text": "",
             "text_style": "subtitle"
           }
         },
         "buttons_ndMgQt": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Enter",
+            "button_label_1": "Explorations",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -46,14 +39,13 @@
         }
       },
       "block_order": [
-        "heading_EfQh9N",
         "text_mC9wzM",
         "text_RAxkQh",
         "buttons_ndMgQt"
       ],
       "settings": {
         "show_image": true,
-        "image": "shopify:\/\/shop_images\/NowRunning_Exploration_29Aug2024_1.png",
+        "image": "shopify:\/\/shop_images\/explorations.png",
         "image_2": "shopify:\/\/shop_images\/NowRunning_Exploration_29Aug2024_1.png",
         "image_overlay_opacity": 0,
         "image_height": "full",
