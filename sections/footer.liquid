@@ -80,7 +80,7 @@
                   {%- if block.settings.heading != blank or block.settings.logo != blank -%}
                     <h2 class="footer-block__heading fb_{{ block.type }} inline-richtext">
                       {% if block.settings.logo != blank %}
-                        <img src="{{ block.settings.logo | image_url }}" >
+                        <img src="{{ block.settings.logo | image_url }}" width="90" height="auto">
                       {% endif %}
 
                       {% if block.settings.heading != blank %}
