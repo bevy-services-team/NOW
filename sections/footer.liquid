@@ -82,12 +82,7 @@
                       {% if block.settings.logo != blank %}
                         {{
                           block.settings.logo
-                          | image_url: width: 90
-                          | image_tag:
-                            loading: 'lazy',
-                            widths: '60, 90, 120, 150, 180',
-                            height: 'auto',
-                            width: '90'
+                          | image_url
                         }}
                       {% endif %}
 
