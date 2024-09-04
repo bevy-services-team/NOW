@@ -81,8 +81,7 @@
                     <h2 class="footer-block__heading fb_{{ block.type }} inline-richtext">
                       {% if block.settings.logo != blank %}
                         {{
-                          block.settings.logo
-                          | image_url
+                          block.settings.logo | image_url
                         }}
                       {% endif %}
 
