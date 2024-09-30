@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Origins Collection",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -45,8 +45,8 @@
       ],
       "settings": {
         "show_image": true,
-        "image": "shopify:\/\/shop_images\/explorations.png",
-        "image_2": "shopify:\/\/shop_images\/NowRunning_Exploration_29Aug2024_1.png",
+        "image": "shopify://shop_images/explorations.png",
+        "image_2": "shopify://shop_images/NowRunning_Exploration_29Aug2024_1.png",
         "image_overlay_opacity": 0,
         "image_height": "full",
         "desktop_content_position": "middle-center",
@@ -65,14 +65,132 @@
         "color_scheme": "scheme-3",
         "newsletter_heading": "New Drops",
         "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice<\/strong><\/a>.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "design_pack_gallery_scroll_FQiRE4": {
+      "type": "design_pack_-_gallery_-_scroll",
+      "blocks": {
+        "small_text_7kaWzU": {
+          "type": "small_text",
+          "settings": {
+            "small_text": "<p>Looking sharp</p>"
+          }
+        },
+        "heading_FKz4MU": {
+          "type": "heading",
+          "settings": {
+            "title": "Find your fit.",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "enable_custom_font": false,
+            "custom_font": "abel_n4",
+            "heading_level": "h2"
+          }
+        },
+        "text_xxNVQM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add a gallery of scrolling images to feature collections, blog posts, products or lifestyle images. </p>"
+          }
+        },
+        "slide_MMEPtL": {
+          "type": "slide",
+          "settings": {
+            "preheading": "",
+            "title": "Outerwear",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center",
+            "text_position": "bottom",
+            "text_color": "#212121",
+            "text_background_color": "",
+            "button_label_color": "#ffffff",
+            "button_background_color": "rgba(0,0,0,0)",
+            "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 1) 100%)"
+          }
+        },
+        "slide_N8cd4C": {
+          "type": "slide",
+          "settings": {
+            "preheading": "",
+            "title": "Accessories",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center",
+            "text_position": "bottom",
+            "text_color": "#212121",
+            "text_background_color": "",
+            "button_label_color": "#ffffff",
+            "button_background_color": "rgba(0,0,0,0)",
+            "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 1) 100%)"
+          }
+        },
+        "slide_FpmHde": {
+          "type": "slide",
+          "settings": {
+            "preheading": "",
+            "title": "Formal",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center",
+            "text_position": "bottom",
+            "text_color": "#212121",
+            "text_background_color": "",
+            "button_label_color": "#ffffff",
+            "button_background_color": "rgba(0,0,0,0)",
+            "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 1) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "small_text_7kaWzU",
+        "heading_FKz4MU",
+        "text_xxNVQM",
+        "slide_MMEPtL",
+        "slide_N8cd4C",
+        "slide_FpmHde"
+      ],
+      "settings": {
+        "enable_lightbox": false,
+        "image_crop": "none",
+        "grid_item_width": 40,
+        "text_below_image": false,
+        "image_position": "left",
+        "show_bar": true,
+        "arrow_display": "left",
+        "gap": 20,
+        "mobile_grid_item_width": 65,
+        "text_size": 100,
+        "text_alignment": "center",
+        "text_width": 35,
+        "text_color": "#212121",
+        "text_background_color": "",
+        "background_color": "",
+        "show_background_image": false,
+        "enable_parallax": false,
+        "animation": "none",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 60,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
       }
     }
   },
   "order": [
     "image_banner_BYwpLM",
+    "design_pack_gallery_scroll_FQiRE4",
     "newsletter_3LtTxi"
   ]
 }
