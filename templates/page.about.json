@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_6fXRbb": {
       "type": "image-banner",
       "settings": {
         "show_image": true,
-        "image": "shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg",
-        "image_2": "shopify:\/\/shop_images\/comparing-black-t-shirts-on-a-clothing-rack-in-a-sun-lit-shop.jpg",
+        "image": "shopify://shop_images/NOW_WordMark_Black_2x_1de9b885-c574-4c83-8413-28e13726dbbc.png",
+        "image_2": "shopify://shop_images/NOW_WordMark_Black_2x_1de9b885-c574-4c83-8413-28e13726dbbc.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
