@@ -45,8 +45,8 @@
       ],
       "settings": {
         "show_image": true,
-        "image": "shopify://shop_images/explorations.png",
-        "image_2": "shopify://shop_images/NowRunning_Exploration_29Aug2024_1.png",
+        "image": "shopify://shop_images/Now_IG_01.png",
+        "image_2": "shopify://shop_images/Now_IG_01.png",
         "image_overlay_opacity": 0,
         "image_height": "full",
         "desktop_content_position": "middle-center",
