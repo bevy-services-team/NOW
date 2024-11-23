@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_BYwpLM": {
@@ -59,30 +59,19 @@
         "show_text_below": false
       }
     },
-    "newsletter_3LtTxi": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "newsletter_heading": "New Drops",
-        "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "design_pack_gallery_scroll_FQiRE4": {
       "type": "design_pack_-_gallery_-_scroll",
       "blocks": {
         "small_text_7kaWzU": {
           "type": "small_text",
           "settings": {
-            "small_text": "<p>Looking sharp</p>"
+            "small_text": "<p>Now Motion Research</p>"
           }
         },
         "heading_FKz4MU": {
           "type": "heading",
           "settings": {
-            "title": "Find your fit.",
+            "title": "Origins",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -93,17 +82,18 @@
         "text_xxNVQM": {
           "type": "text",
           "settings": {
-            "text": "<p>Add a gallery of scrolling images to feature collections, blog posts, products or lifestyle images. </p>"
+            "text": "<p>The point or place where something begins, arises or is derived. <br/><br/><a href=\"/collections/all\" title=\"All products\">Shop Now</a></p>"
           }
         },
         "slide_MMEPtL": {
           "type": "slide",
           "settings": {
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.50.42_AM.png",
             "preheading": "",
-            "title": "Outerwear",
+            "title": "Run The World Tour 001",
             "text": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/example-t-shirt-9",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -116,11 +106,12 @@
         "slide_N8cd4C": {
           "type": "slide",
           "settings": {
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.50.17_AM.png",
             "preheading": "",
-            "title": "Accessories",
+            "title": "Speed Equation",
             "text": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/example-t-shirt-2",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -133,11 +124,12 @@
         "slide_FpmHde": {
           "type": "slide",
           "settings": {
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.49.48_AM.png",
             "preheading": "",
-            "title": "Formal",
+            "title": "Human Race Team",
             "text": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/example-t-shirt",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -185,6 +177,17 @@
         "override_theme_font": false,
         "heading_font": "serif",
         "main_font": "sans-serif"
+      }
+    },
+    "newsletter_3LtTxi": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_heading": "New Drops",
+        "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
