@@ -62,16 +62,10 @@
     "design_pack_gallery_scroll_FQiRE4": {
       "type": "design_pack_-_gallery_-_scroll",
       "blocks": {
-        "small_text_7kaWzU": {
-          "type": "small_text",
-          "settings": {
-            "small_text": "<p>Now Motion Research</p>"
-          }
-        },
         "heading_FKz4MU": {
           "type": "heading",
           "settings": {
-            "title": "Origins",
+            "title": "Origins Collection",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -82,7 +76,7 @@
         "text_xxNVQM": {
           "type": "text",
           "settings": {
-            "text": "<p>The point or place where something begins, arises or is derived. <br/><br/><a href=\"/collections/all\" title=\"All products\">Shop Now</a></p>"
+            "text": "<p>An origin is the point or place where something begins, arises or is derived. <br/>This is ours.</p>"
           }
         },
         "slide_MMEPtL": {
@@ -141,7 +135,6 @@
         }
       },
       "block_order": [
-        "small_text_7kaWzU",
         "heading_FKz4MU",
         "text_xxNVQM",
         "slide_MMEPtL",
