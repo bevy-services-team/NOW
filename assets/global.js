@@ -1293,3 +1293,27 @@ class CustomTab extends HTMLElement {
 }
 
 customElements.define('custom-tab', CustomTab)
+
+
+
+class SlideshowAnnounce extends HTMLElement {
+  constructor(){
+    super();
+    this.slider = this.querySelector('.swiper');
+    this.init();
+  }
+
+  init(){
+    this.swiper = new Swiper(this.slider, {
+      // direction: 'vertical',
+      loop: false,
+      slidesPerView: 1,
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+    });
+  }
+}
+
+customElements.define('slideshow-announce', SlideshowAnnounce)

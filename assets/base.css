@@ -3719,6 +3719,12 @@ details-disclosure > details {
   display: none;
 }
 
+.announcement-bar__message {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
+
 
 @media (max-width: 749px) {
   .news_heading {
