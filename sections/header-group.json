@@ -17,15 +17,22 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "BE THE EXPERIMENT",
+            "link": ""
+          }
+        },
+        "announcement_6LTQzY": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE INTL SHIPPING ON ORDERS OVER $150",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_6LTQzY"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,
