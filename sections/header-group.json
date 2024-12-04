@@ -14,24 +14,24 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "BE THE EXPERIMENT",
-            "link": ""
-          }
-        },
         "announcement_jRe9P4": {
           "type": "announcement",
           "settings": {
             "text": "FREE INTL SHIPPING ON ORDERS OVER $150",
             "link": ""
           }
+        },
+        "announcement_7GqTXF": {
+          "type": "announcement",
+          "settings": {
+            "text": "SHOP THE ORIGINS COLLECTION",
+            "link": "shopify://collections"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_jRe9P4"
+        "announcement_jRe9P4",
+        "announcement_7GqTXF"
       ],
       "settings": {
         "color_scheme": "scheme-1",
