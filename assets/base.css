@@ -3750,6 +3750,7 @@ details-disclosure > details {
   justify-content: center;
   text-align: center;
   padding: 15px;
+  font-size: 18px;
 }
 
 @media (min-width: 990px) {
@@ -3768,6 +3769,10 @@ details-disclosure > details {
 
   .mega-menu .mega-menu__list {
     grid-template-columns: repeat(5,minmax(0,1fr));
+  }
+
+  .mega-menu__link {
+    font-size: 12px;
   }
 }
 
