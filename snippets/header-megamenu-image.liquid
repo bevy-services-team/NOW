@@ -1,0 +1,31 @@
+{% for block in section.blocks  %}
+    {% case block.type %}
+      {% when 'megamenu_image' %}
+        {% assign menu_handle = block.settings.menu_handle | downcase %}
+        {% if menu_handle == menu_level_1 and block.settings.image != blank %}
+          <li class="megamenu_image">
+            <a
+              href="{{ block.settings.link }}"
+              class="megamenu_image_{{ block.id }} mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+              {% if childlink.current %}
+                aria-current="page"
+              {% endif %}
+            >
+              <style>
+                .megamenu_image_{{ block.id }} {
+                  --color-megatitle: {{ block.settings.color_title }}
+                }
+              </style>
+              {{ block.settings.image 
+                | image_url: width: 488 
+                | image_tag: 
+                widths: '188, 288, 388, 488',
+                height: '100%',
+                loading: 'lazy'
+              }}
+              <span class="megamenu_title_image">{{ block.settings.title | escape }}</span>
+            </a>
+          </li>
+        {% endif %}
+    {% endcase %}
+  {% endfor %}

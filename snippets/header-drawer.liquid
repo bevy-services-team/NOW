@@ -22,6 +22,7 @@
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
               {%- for link in section.settings.menu.links -%}
+                {% assign menu_level_1 = link.title | downcase %}
                 <li>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
@@ -103,6 +104,8 @@
                                 {%- endif -%}
                               </li>
                             {%- endfor -%}
+
+                            {% render 'header-megamenu-image', menu_level_1: menu_level_1 %}
                           </ul>
                         </div>
                       </div>

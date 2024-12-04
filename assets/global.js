@@ -1300,20 +1300,28 @@ class SlideshowAnnounce extends HTMLElement {
   constructor(){
     super();
     this.slider = this.querySelector('.swiper');
+    this.autoplay = null;
+    this.autoplayStatus = this.dataset.autoplay;
+    if(this.autoplayStatus == 'true') {
+      this.speed = parseInt(this.dataset.speed) * 1000;
+      this.autoplay = {
+        delay: this.speed,
+        disableOnInteraction: false
+      }
+    }
     this.init();
   }
 
   init(){
     this.swiper = new Swiper(this.slider, {
-      // direction: 'vertical',
+      direction: 'vertical',
       loop: false,
       slidesPerView: 1,
-      // autoplay: {
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      // },
+      autoHeight: true,
+      autoplay: this.autoplay
     });
   }
 }
 
-customElements.define('slideshow-announce', SlideshowAnnounce)
+customElements.define('slideshow-announce', SlideshowAnnounce);
+

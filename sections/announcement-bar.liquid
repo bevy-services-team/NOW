@@ -1,5 +1,6 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'announcement-bar.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign social_icons = true
@@ -57,6 +58,8 @@
         role="region"
         aria-roledescription="{{ 'sections.announcements.carousel' | t }}"
         aria-label="{{ 'sections.announcements.announcement_bar' | t }}"
+        data-autoplay="{{ section.settings.auto_rotate }}"
+        data-speed="{{ section.settings.change_slides_speed }}"
       >
         <div class="announcement-bar-slider slider-buttons">
           <div class="swiper">
