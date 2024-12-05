@@ -1293,3 +1293,35 @@ class CustomTab extends HTMLElement {
 }
 
 customElements.define('custom-tab', CustomTab)
+
+
+
+class SlideshowAnnounce extends HTMLElement {
+  constructor(){
+    super();
+    this.slider = this.querySelector('.swiper');
+    this.autoplay = null;
+    this.autoplayStatus = this.dataset.autoplay;
+    if(this.autoplayStatus == 'true') {
+      this.speed = parseInt(this.dataset.speed) * 1000;
+      this.autoplay = {
+        delay: this.speed,
+        disableOnInteraction: false
+      }
+    }
+    this.init();
+  }
+
+  init(){
+    this.swiper = new Swiper(this.slider, {
+      direction: 'vertical',
+      loop: false,
+      slidesPerView: 1,
+      autoHeight: true,
+      autoplay: this.autoplay
+    });
+  }
+}
+
+customElements.define('slideshow-announce', SlideshowAnnounce);
+

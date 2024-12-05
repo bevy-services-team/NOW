@@ -45,10 +45,25 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "megamenu_image_KqPBMm": {
+          "type": "megamenu_image",
+          "settings": {
+            "menu_handle": "Shop",
+            "image": "shopify://shop_images/M_NK_DFADV_AROSWFT_SINGLET.webp",
+            "title": "New Arrivals",
+            "color_title": "#ffffff",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_image_KqPBMm"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-1",

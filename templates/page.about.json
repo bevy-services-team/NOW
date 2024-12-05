@@ -13,8 +13,8 @@
       "type": "image-banner",
       "settings": {
         "show_image": true,
-        "image": "shopify://shop_images/Now_IG_01.png",
-        "image_2": "shopify://shop_images/Now_IG_01.png",
+        "image": "shopify:\/\/shop_images\/Now_IG_01.png",
+        "image_2": "shopify:\/\/shop_images\/Now_IG_01.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",

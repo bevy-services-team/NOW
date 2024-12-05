@@ -90,8 +90,14 @@
 
   @media screen and (min-width: 990px) {
     .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    
+    .header__menu-item {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 {%- endstyle -%}
@@ -456,7 +462,6 @@
 {
   "name": "t:sections.header.name",
   "class": "section-header",
-  "max_blocks": 3,
   "settings": [
     {
       "type": "select",
@@ -652,6 +657,39 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "megamenu_image",
+      "name": "Megamenu image",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_handle",
+          "label": "Menu handle"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Menu Title"
+        },
+        {
+          "type": "color",
+          "id": "color_title",
+          "label": "Menu title color",
+          "default": "#000"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Menu link"
+        }
+      ]
     }
   ]
 }

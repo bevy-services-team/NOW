@@ -1,6 +1,5 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{{ 'announcement-bar.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
   assign social_icons = true
@@ -53,64 +52,78 @@
         {%- endif -%}
       </div>
     {%- elsif section.blocks.size > 1 -%}
-      <slideshow-announce
+      <slideshow-component
         class="announcement-bar"
         role="region"
         aria-roledescription="{{ 'sections.announcements.carousel' | t }}"
         aria-label="{{ 'sections.announcements.announcement_bar' | t }}"
-        data-autoplay="{{ section.settings.auto_rotate }}"
-        data-speed="{{ section.settings.change_slides_speed }}"
       >
         <div class="announcement-bar-slider slider-buttons">
-          <div class="swiper">
-            <div
-              class="swiper-wrapper"
-              id="Slider-{{ section.id }}"
-              aria-live="polite"
-              aria-atomic="true"
-              data-autoplay="{{ section.settings.auto_rotate }}"
-              data-speed="{{ section.settings.change_slides_speed }}"
-            >
-              {%- for block in section.blocks -%}
+          <button
+            type="button"
+            class="slider-button slider-button--prev hidden"
+            name="previous"
+            aria-label="{{ 'sections.announcements.previous_announcement' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
+          <div
+            class="grid grid--1-col slider slider--everywhere"
+            id="Slider-{{ section.id }}"
+            aria-live="polite"
+            aria-atomic="true"
+            data-autoplay="{{ section.settings.auto_rotate }}"
+            data-speed="{{ section.settings.change_slides_speed }}"
+          >
+            {%- for block in section.blocks -%}
+              <div
+                class="slideshow__slide slider__slide grid__item grid--1-col"
+                id="Slide-{{ section.id }}-{{ forloop.index }}"
+                {{ block.shopify_attributes }}
+                role="group"
+                aria-roledescription="{{ 'sections.announcements.announcement' | t }}"
+                aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                tabindex="-1"
+              >
                 <div
-                  class="swiper-slide"
-                  id="Slide-{{ section.id }}-{{ forloop.index }}"
+                  class="announcement-bar__announcement"
+                  role="region"
+                  aria-label="{{ 'sections.header.announcement' | t }}"
                   {{ block.shopify_attributes }}
-                  role="group"
-                  aria-roledescription="{{ 'sections.announcements.announcement' | t }}"
-                  aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                  tabindex="-1"
                 >
-                  <div
-                    class="announcement-bar__announcement"
-                    role="region"
-                    aria-label="{{ 'sections.header.announcement' | t }}"
-                    {{ block.shopify_attributes }}
-                  >
-                    {%- if block.settings.text != blank -%}
-                      {%- if block.settings.link != blank -%}
-                        <a
-                          href="{{ block.settings.link }}"
-                          class="announcement-bar__link link link--text focus-inset animate-arrow"
-                        >
-                      {%- endif -%}
-                      <p class="announcement-bar__message h5">
-                        <span>{{ block.settings.text | escape }}</span>
-                        {%- if block.settings.link != blank -%}
-                          {% render 'icon-arrow' %}
-                        {%- endif -%}
-                      </p>
-                      {%- if block.settings.link != blank -%}
-                        </a>
-                      {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    {%- if block.settings.link != blank -%}
+                      <a
+                        href="{{ block.settings.link }}"
+                        class="announcement-bar__link link link--text focus-inset animate-arrow"
+                      >
                     {%- endif -%}
-                  </div>
+                    <p class="announcement-bar__message h5">
+                      <span>{{ block.settings.text | escape }}</span>
+                      {%- if block.settings.link != blank -%}
+                        {% render 'icon-arrow' %}
+                      {%- endif -%}
+                    </p>
+                    {%- if block.settings.link != blank -%}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
                 </div>
-              {%- endfor -%}
-            </div>
+              </div>
+            {%- endfor -%}
           </div>
+          <button
+            type="button"
+            class="slider-button slider-button--next hidden"
+            name="next"
+            aria-label="{{ 'sections.announcements.next_announcement' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
         </div>
-      </slideshow-announce>
+      </slideshow-component>
       {%- if request.design_mode -%}
         <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
         <style>

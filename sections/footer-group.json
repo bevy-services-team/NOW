@@ -17,9 +17,9 @@
         "text_QcqWtF": {
           "type": "text",
           "settings": {
-            "logo": "shopify://shop_images/NOW_WordMark_Black_2x_1de9b885-c574-4c83-8413-28e13726dbbc.png",
+            "logo": "shopify:\/\/shop_images\/NOW_WordMark_Black_2x_1de9b885-c574-4c83-8413-28e13726dbbc.png",
             "heading": "",
-            "subtext": "<p>Be the experiment. <br/>Now Motion Research® 2024.</p>"
+            "subtext": "<p>Be the experiment. <br\/>Now Motion Research® 2024.<\/p>"
           }
         },
         "link_list_3UBd3G": {
