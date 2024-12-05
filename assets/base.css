@@ -3753,6 +3753,14 @@ details-disclosure > details {
   font-size: 18px;
 }
 
+.accordion_image {
+  text-align: center;
+}
+
+.accordion_image img {
+  border: none;
+}
+
 @media (min-width: 990px) {
   .list-menu--inline > li .mega-menu__content {
     display: none;
