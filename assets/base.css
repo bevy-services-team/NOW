@@ -3754,8 +3754,12 @@ details-disclosure > details {
 }
 
 @media (min-width: 990px) {
+  .list-menu--inline > li .mega-menu__content {
+    display: none;
+  }
   .list-menu--inline > li:hover .mega-menu__content {
     opacity: 1;
+    display: block;
   }
 
   .header__menu-item .icon-caret {
@@ -3787,6 +3791,11 @@ details-disclosure > details {
 
   .megamenu_title_image {
     padding: 50px;
+  }
+
+  .menu-drawer__submenu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
