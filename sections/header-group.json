@@ -46,7 +46,7 @@
     "header": {
       "type": "header",
       "blocks": {
-        "megamenu_image_KqPBMm": {
+        "megamenu_image_mAYR64": {
           "type": "megamenu_image",
           "settings": {
             "menu_handle": "Shop",
@@ -58,7 +58,7 @@
         }
       },
       "block_order": [
-        "megamenu_image_KqPBMm"
+        "megamenu_image_mAYR64"
       ],
       "settings": {
         "logo_position": "middle-left",
