@@ -87,7 +87,8 @@
             "heading": "Sizing & Fit",
             "icon": "none",
             "content": "{{ product.metafields.custom.sizing_fit | metafield_tag }}",
-            "page": ""
+            "page": "",
+            "image": "shopify://shop_images/outlineht.png"
           }
         },
         "collapsible_tab_rYY7Kq": {
@@ -96,8 +97,7 @@
             "heading": "Warranty",
             "icon": "none",
             "content": "{{ product.metafields.custom.warranty | metafield_tag }}",
-            "page": "",
-            "image": "shopify://shop_images/outlineht.png"
+            "page": ""
           }
         }
       },
