@@ -87,7 +87,8 @@
             "heading": "Sizing & Fit",
             "icon": "none",
             "content": "{{ product.metafields.custom.sizing_fit | metafield_tag }}",
-            "page": ""
+            "page": "",
+            "image": "shopify://shop_images/outlineht.png"
           }
         },
         "collapsible_tab_rYY7Kq": {
@@ -95,7 +96,7 @@
           "settings": {
             "heading": "Warranty",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.warranty | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.warranty | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -153,9 +154,9 @@
         "column_Emy6Qj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/question-circle-svgrepo-com.svg",
+            "image": "shopify://shop_images/question-circle-svgrepo-com.svg",
             "title": "Get Help Buying",
-            "text": "<p>If you have any questions about our gear, get in touch.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/collections\/shop-new-arrivals\/products\/techsilk-8-shorts-6?variant=48790750495048#\">Chat with us<\/a><\/p>",
+            "text": "<p>If you have any questions about our gear, get in touch.</p><p><a href=\"https://satisfyrunning.com/collections/shop-new-arrivals/products/techsilk-8-shorts-6?variant=48790750495048#\">Chat with us</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -163,9 +164,9 @@
         "column_Uhnzxt": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/box-open-2-svgrepo-com.svg",
+            "image": "shopify://shop_images/box-open-2-svgrepo-com.svg",
             "title": "Free FedEx® Delivery",
-            "text": "<p>All prices include customs duties and taxes. Orders above 200 EUR ship for free.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/pages\/faq\">Learn more<\/a><\/p>",
+            "text": "<p>All prices include customs duties and taxes. Orders above 200 EUR ship for free.</p><p><a href=\"https://satisfyrunning.com/pages/faq\">Learn more</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -173,9 +174,9 @@
         "column_eVKEEW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/return-svgrepo-com.svg",
+            "image": "shopify://shop_images/return-svgrepo-com.svg",
             "title": "Free & Easy Returns",
-            "text": "<p>Free returns on all orders within 14 days from the delivery date.<\/p><p><a href=\"https:\/\/satisfyrunning.com\/pages\/faq\">Learn more<\/a><\/p>",
+            "text": "<p>Free returns on all orders within 14 days from the delivery date.</p><p><a href=\"https://satisfyrunning.com/pages/faq\">Learn more</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -210,7 +211,7 @@
         "color_scheme": "scheme-3",
         "newsletter_heading": "New Drops",
         "newsletter_text": "Sign up to get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice<\/strong><\/a>.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
         "padding_top": 0,
         "padding_bottom": 0
       }
