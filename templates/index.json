@@ -370,17 +370,6 @@
         "main_font": "sans-serif"
       }
     },
-    "newsletter_3LtTxi": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "newsletter_heading": "Get the drop on new drops",
-        "newsletter_text": "Sign up and get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "design_pack_heading_GK76zV": {
       "type": "design_pack_-_heading",
       "blocks": {
@@ -518,6 +507,192 @@
         "main_font": "sans-serif",
         "enable_metafield_detect": false
       }
+    },
+    "design_pack_gallery_text_overlay_RLKdhN": {
+      "type": "design_pack_-_gallery_text-overlay",
+      "blocks": {
+        "image_DpHUAg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-Pertex-Desktop__2_900x.progressive_2bab559e-9d5d-4480-8ae3-9d185d5b2a0f.png",
+            "title": "Hats",
+            "text": "<p>LIGHTWEIGHT ELEMENTAL PROTECTION</p>",
+            "button_label": "SHOP",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": "linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%)"
+          }
+        },
+        "image_4EzzDC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-CloudMerino-Desktop__2_900x.progressive_f4a2a810-e18a-468b-916a-aa62ada36a5f.png",
+            "title": "Tops",
+            "text": "<p>FOR THOSE WHO RUN TO FEEL FREE</p>",
+            "button_label": "SHOP",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": "linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%)"
+          }
+        },
+        "image_TgqRAy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-Mothtech-Desktop__4_900x.progressive_f21fab4a-aa4e-4878-9ede-44b75c6d0c1e.png",
+            "title": "Shorts",
+            "text": "<p>THE HEART OF YOUR KIT</p>",
+            "button_label": "Shop",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": "linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_DpHUAg",
+        "image_4EzzDC",
+        "image_TgqRAy"
+      ],
+      "settings": {
+        "enable_hover": false,
+        "per_row": 3,
+        "image_crop": "none",
+        "grid_alignment": "bottom_top",
+        "gutter": 32,
+        "mobile_per_row": 1,
+        "text_size": 100,
+        "text_color": "#ffffff",
+        "button_label_color": "#000000",
+        "button_background_color": "#ffffff",
+        "button_radius": 50,
+        "background_color": "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "animation": "none",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 40,
+        "custom_css": ".dsgn-pck__image__wrapper img {\n  border-radius: 4px;\n}",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "design_pack_image_with_text_w3VmPk": {
+      "type": "design_pack_-_image_with_text",
+      "blocks": {
+        "inset_image_yYmzhK": {
+          "type": "inset_image",
+          "settings": {
+            "inset_image_size": 10,
+            "image_alignment": "default"
+          }
+        },
+        "small_text_RFRcwU": {
+          "type": "small_text",
+          "settings": {
+            "small_text": "<p>New arrivals</p>"
+          }
+        },
+        "heading_4FWHVK": {
+          "type": "heading",
+          "settings": {
+            "title": "Attention-grabbing headline",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "enable_custom_font": false,
+            "custom_font": "abel_n4",
+            "heading_level": "h2"
+          }
+        },
+        "text_CrHBBk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Drag and drop block options like heading, text, buttons, dividers, and more.</p>"
+          }
+        },
+        "icons_6GErU6": {
+          "type": "icons",
+          "settings": {
+            "icon_width": 50,
+            "gap": 20,
+            "image_size": 40,
+            "icon_layout": "top",
+            "icon_alignment": "default",
+            "mobile_icon_width": 50,
+            "mobile_icon_layout": "top",
+            "heading_1": "",
+            "text_1": "",
+            "link_1": "",
+            "heading_2": "",
+            "text_2": "",
+            "link_2": "",
+            "heading_3": "",
+            "text_3": "",
+            "link_3": "",
+            "heading_4": "",
+            "text_4": "",
+            "link_4": "",
+            "heading_5": "",
+            "text_5": "",
+            "link_5": "",
+            "heading_6": "",
+            "text_6": "",
+            "link_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "inset_image_yYmzhK",
+        "small_text_RFRcwU",
+        "heading_4FWHVK",
+        "text_CrHBBk",
+        "icons_6GErU6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Half-Banner-Stoner-Desktop_4_2000x.progressive_527a421e-22f1-45f2-af77-f9f3f32c8253.png",
+        "image_crop": "none",
+        "image_link": "",
+        "image_position": "left",
+        "show_content_below": true,
+        "text_alignment": "left",
+        "text_size": 100,
+        "text_width": 50,
+        "text_color": "#283144",
+        "text_background_color": "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "background_color": "",
+        "show_background_image": false,
+        "animation": "none",
+        "base_width": 100,
+        "max_width": "",
+        "inner_padding": 60,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif",
+        "enable_metafield_detect": false
+      }
+    },
+    "newsletter_3LtTxi": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_heading": "Get the drop on new drops",
+        "newsletter_text": "Sign up and get 10% off your first order, alongside early access to exclusive launches.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -528,6 +703,8 @@
     "design_pack_gallery_text_overlay_6eidfn",
     "design_pack_heading_GK76zV",
     "design_pack_image_with_text_GyVGee",
+    "design_pack_gallery_text_overlay_RLKdhN",
+    "design_pack_image_with_text_w3VmPk",
     "newsletter_3LtTxi"
   ]
 }
