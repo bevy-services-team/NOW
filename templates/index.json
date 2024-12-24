@@ -380,6 +380,144 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "design_pack_heading_GK76zV": {
+      "type": "design_pack_-_heading",
+      "blocks": {
+        "heading_njxhfT": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop the Silhouette",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "heading_level": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_njxhfT"
+      ],
+      "settings": {
+        "text_size": 100,
+        "text_alignment": "center",
+        "text_position": "center center",
+        "text_width": "600px",
+        "text_color": "#121212",
+        "text_background_color": "",
+        "background_color": "",
+        "animation": "none",
+        "max_width": "",
+        "match_padding": true,
+        "inner_padding": 40,
+        "bottom_padding": 0,
+        "match_margin": true,
+        "outer_margin": 40,
+        "bottom_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "design_pack_image_with_text_GyVGee": {
+      "type": "design_pack_-_image_with_text",
+      "blocks": {
+        "inset_image_YBMWxj": {
+          "type": "inset_image",
+          "settings": {
+            "inset_image_size": 10,
+            "image_alignment": "default"
+          }
+        },
+        "small_text_zbrHL3": {
+          "type": "small_text",
+          "settings": {
+            "small_text": "<p>New arrivals</p>"
+          }
+        },
+        "heading_LUBm7p": {
+          "type": "heading",
+          "settings": {
+            "title": "Attention-grabbing headline",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "enable_custom_font": false,
+            "custom_font": "abel_n4",
+            "heading_level": "h2"
+          }
+        },
+        "text_mr4mWT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Drag and drop block options like heading, text, buttons, dividers, and more.</p>"
+          }
+        },
+        "icons_3bzTGy": {
+          "type": "icons",
+          "settings": {
+            "icon_width": 50,
+            "gap": 20,
+            "image_size": 40,
+            "icon_layout": "top",
+            "icon_alignment": "default",
+            "mobile_icon_width": 50,
+            "mobile_icon_layout": "top",
+            "heading_1": "",
+            "text_1": "",
+            "link_1": "",
+            "heading_2": "",
+            "text_2": "",
+            "link_2": "",
+            "heading_3": "",
+            "text_3": "",
+            "link_3": "",
+            "heading_4": "",
+            "text_4": "",
+            "link_4": "",
+            "heading_5": "",
+            "text_5": "",
+            "link_5": "",
+            "heading_6": "",
+            "text_6": "",
+            "link_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "inset_image_YBMWxj",
+        "small_text_zbrHL3",
+        "heading_LUBm7p",
+        "text_mr4mWT",
+        "icons_3bzTGy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/PHOTO-DESKTOP_4_2000x.progressive_e2aa4c82-660a-4f34-a810-057c397afc97.png",
+        "image_crop": "none",
+        "image_link": "",
+        "image_position": "left",
+        "show_content_below": true,
+        "text_alignment": "left",
+        "text_size": 100,
+        "text_width": 50,
+        "text_color": "#283144",
+        "text_background_color": "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "background_color": "",
+        "show_background_image": false,
+        "animation": "none",
+        "base_width": 100,
+        "max_width": "",
+        "inner_padding": 60,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif",
+        "enable_metafield_detect": false
+      }
     }
   },
   "order": [
@@ -388,6 +526,8 @@
     "design_pack_featured_collection_slider_k8XNGz",
     "design_pack_gallery_scroll_FQiRE4",
     "design_pack_gallery_text_overlay_6eidfn",
+    "design_pack_heading_GK76zV",
+    "design_pack_image_with_text_GyVGee",
     "newsletter_3LtTxi"
   ]
 }
