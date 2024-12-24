@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "design_pack_banner_image_simple_GVxgwn": {
+      "type": "design_pack_-_banner_image_-_simple",
+      "settings": {
+        "link": "",
+        "background_image": "shopify://shop_images/Now_IG_01.png",
+        "image_crop": "none",
+        "show_content_below": false,
+        "text_size": 100,
+        "text_alignment": "left",
+        "text_position": "left center",
+        "text_width": 650,
+        "text_color": "#FFFFFF",
+        "text_background_color": "",
+        "image_overlay_color": "",
+        "animation": "none",
+        "base_width": 95,
+        "max_base_width": "",
+        "max_width": "",
+        "outer_margin_top": 0,
+        "outer_margin_bottom": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif",
+        "enable_metafield_detect": false
+      }
+    },
     "image_banner_BYwpLM": {
       "type": "image-banner",
       "blocks": {
@@ -30,7 +59,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Origins Collection",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -43,10 +72,11 @@
         "text_RAxkQh",
         "buttons_ndMgQt"
       ],
+      "disabled": true,
       "settings": {
         "show_image": true,
-        "image": "shopify:\/\/shop_images\/Now_IG_01.png",
-        "image_2": "shopify:\/\/shop_images\/Now_IG_01.png",
+        "image": "shopify://shop_images/Now_IG_01.png",
+        "image_2": "shopify://shop_images/Now_IG_01.png",
         "image_overlay_opacity": 0,
         "image_height": "full",
         "desktop_content_position": "middle-center",
@@ -76,18 +106,18 @@
         "text_xxNVQM": {
           "type": "text",
           "settings": {
-            "text": "<p>An origin is the point or place where something begins, arises or is derived. <br\/>This is ours.<\/p>"
+            "text": "<p>An origin is the point or place where something begins, arises or is derived. <br/>This is ours.</p>"
           }
         },
         "slide_MMEPtL": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Screenshot_2024-08-30_at_10.50.42_AM.png",
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.50.42_AM.png",
             "preheading": "",
             "title": "Run The World Tour",
             "text": "",
             "button_label": "",
-            "link": "shopify:\/\/products\/example-t-shirt-9",
+            "link": "shopify://products/example-t-shirt-9",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -100,12 +130,12 @@
         "slide_N8cd4C": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Screenshot_2024-08-30_at_10.50.17_AM.png",
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.50.17_AM.png",
             "preheading": "",
             "title": "Speed Equation",
             "text": "",
             "button_label": "",
-            "link": "shopify:\/\/products\/example-t-shirt-2",
+            "link": "shopify://products/example-t-shirt-2",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -118,12 +148,12 @@
         "slide_FpmHde": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Screenshot_2024-08-30_at_10.49.48_AM.png",
+            "background_image": "shopify://shop_images/Screenshot_2024-08-30_at_10.49.48_AM.png",
             "preheading": "",
             "title": "Human Race Team",
             "text": "",
             "button_label": "",
-            "link": "shopify:\/\/products\/example-t-shirt",
+            "link": "shopify://products/example-t-shirt",
             "text_alignment": "center",
             "text_position": "bottom",
             "text_color": "#212121",
@@ -178,13 +208,14 @@
         "color_scheme": "scheme-3",
         "newsletter_heading": "Get the drop on new drops",
         "newsletter_text": "Sign up and get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice<\/strong><\/a>.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
         "padding_top": 0,
         "padding_bottom": 0
       }
     }
   },
   "order": [
+    "design_pack_banner_image_simple_GVxgwn",
     "image_banner_BYwpLM",
     "design_pack_gallery_scroll_FQiRE4",
     "newsletter_3LtTxi"
