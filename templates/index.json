@@ -685,6 +685,7 @@
     },
     "newsletter_3LtTxi": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_heading": "Get the drop on new drops",
@@ -725,7 +726,7 @@
             "show_last_name": false,
             "last_name_label": "Last name",
             "button_label_color": "#FFFFFF",
-            "button_background_color": "#283144",
+            "button_background_color": "rgba(0,0,0,0)",
             "button_radius": 0
           }
         }
@@ -744,7 +745,7 @@
         "text_alignment": "left",
         "text_size": 100,
         "text_width": 50,
-        "text_color": "#283144",
+        "text_color": "#ffffff",
         "text_background_color": "#bab0a4",
         "background_color": "",
         "show_background_image": false,
