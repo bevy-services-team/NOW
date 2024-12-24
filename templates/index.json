@@ -387,7 +387,7 @@
         "heading_njxhfT"
       ],
       "settings": {
-        "text_size": 100,
+        "text_size": 150,
         "text_alignment": "center",
         "text_position": "center center",
         "text_width": "600px",
@@ -400,7 +400,7 @@
         "inner_padding": 40,
         "bottom_padding": 0,
         "match_margin": true,
-        "outer_margin": 40,
+        "outer_margin": 25,
         "bottom_margin": 0,
         "custom_css": "",
         "mobile_custom_css": "",
