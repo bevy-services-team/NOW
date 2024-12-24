@@ -43,6 +43,10 @@
   font-family: Suisse Bold Sans !important;
 }
 
+[id^="DP--"].dsgn-pck__gallery-grid {
+  --dp-button-padding: 6px 20px 5px;
+  --dp-body-size: 12.6px;
+}
 
           
 [id^="DP--"] h1,
