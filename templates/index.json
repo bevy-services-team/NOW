@@ -753,7 +753,7 @@
         "max_width": "",
         "inner_padding": 60,
         "outer_margin": 0,
-        "custom_css": ".dsgn-pck__grid--main {\n  gap: 32px;\n}",
+        "custom_css": ".dsgn-pck__grid--main {\n  gap: 32px;\n}\n\n.dsgn-pck__content {\n  border-radius: 4px;\n}\n\n.dsgn-pck__image__wrapper img {\n  border-radius: 4px;\n}",
         "mobile_custom_css": "",
         "anchor_id": "",
         "override_theme_font": false,
