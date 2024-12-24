@@ -683,18 +683,6 @@
         "enable_metafield_detect": false
       }
     },
-    "newsletter_3LtTxi": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-3",
-        "newsletter_heading": "Get the drop on new drops",
-        "newsletter_text": "Sign up and get 10% off your first order, alongside early access to exclusive launches.",
-        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "design_pack_image_with_text_VjCp49": {
       "type": "design_pack_-_image_with_text",
       "blocks": {
@@ -826,6 +814,17 @@
         "heading_font": "serif",
         "main_font": "sans-serif"
       }
+    },
+    "newsletter_3LtTxi": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "newsletter_heading": "Get the drop on new drops",
+        "newsletter_text": "Sign up and get 10% off your first order, alongside early access to exclusive launches.",
+        "newsletter_text_privacy": "Learn more about how we protect your personal data by viewing our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a>.",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -838,8 +837,8 @@
     "design_pack_image_with_text_GyVGee",
     "design_pack_gallery_text_overlay_RLKdhN",
     "design_pack_image_with_text_w3VmPk",
-    "newsletter_3LtTxi",
     "design_pack_image_with_text_VjCp49",
-    "design_pack_value_proposition_horizontal_E3bBiY"
+    "design_pack_value_proposition_horizontal_E3bBiY",
+    "newsletter_3LtTxi"
   ]
 }
