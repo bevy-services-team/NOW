@@ -514,9 +514,9 @@
         "image_DpHUAg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Bloc-Pertex-Desktop__2_900x.progressive_2bab559e-9d5d-4480-8ae3-9d185d5b2a0f.png",
-            "title": "Hats",
-            "text": "<p>LIGHTWEIGHT ELEMENTAL PROTECTION</p>",
+            "image": "shopify://shop_images/Bloc-Ghostfleece-Desktop_2_900x.progressive_b896212e-57ec-402d-8896-3e6ed6408bdc.png",
+            "title": "GhostFleece™",
+            "text": "<p>Polartec® Powered Insulation</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -528,9 +528,9 @@
         "image_4EzzDC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Bloc-CloudMerino-Desktop__2_900x.progressive_f4a2a810-e18a-468b-916a-aa62ada36a5f.png",
-            "title": "Tops",
-            "text": "<p>FOR THOSE WHO RUN TO FEEL FREE</p>",
+            "image": "shopify://shop_images/Bloc-CloudMerino-Desktop_5_900x.progressive_415e6612-c649-48a2-bf9c-1de40192e5c7.png",
+            "title": "Pertex®",
+            "text": "<p>BREATHABLE WATERPROOF PROTECTION</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -543,8 +543,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-Mothtech-Desktop__4_900x.progressive_f21fab4a-aa4e-4878-9ede-44b75c6d0c1e.png",
-            "title": "Shorts",
-            "text": "<p>THE HEART OF YOUR KIT</p>",
+            "title": "CloudMerino™",
+            "text": "<p>Featherweight Thermoregulation</p>",
             "button_label": "Shop",
             "link": "",
             "external_link": false,
