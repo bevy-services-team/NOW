@@ -44,7 +44,7 @@
 .dsgn-pck__heading {
   font-family: Suisse Bold Sans !important;
 font-weight: 800 !important;
-line-height: 1.2 !important;
+line-height: 1 !important;
 letter-spacing: 0.5px !important;
 
 }
@@ -95,7 +95,7 @@ h5,
 .h4,
 .h5 {
   letter-spacing: 0.5px;
-  line-height: 1.2;
+  line-height: 1;
 }
             
         
