@@ -101,9 +101,9 @@
             "visible_products": 8,
             "button_label": "View all products",
             "button_link": "",
-            "button_label_color": "#4B4949",
-            "button_background_color": "rgba(0,0,0,0)",
-            "button_radius": 0
+            "button_label_color": "#ffffff",
+            "button_background_color": "#000000",
+            "button_radius": 50
           }
         },
         "collection_9zK6H6": {
