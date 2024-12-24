@@ -762,6 +762,70 @@
         "main_font": "sans-serif",
         "enable_metafield_detect": false
       }
+    },
+    "design_pack_value_proposition_horizontal_E3bBiY": {
+      "type": "design_pack_-_value_proposition_horizontal",
+      "blocks": {
+        "icon_g9fEzY": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "show_icon": true,
+            "title": "Get Help Buying",
+            "text": "<p>If you have any questions about our gear, get in touch.</p><p><a href=\"https://satisfyrunning.com/#\">Chat with us</a></p>",
+            "link": ""
+          }
+        },
+        "icon_YUWUkg": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "show_icon": true,
+            "title": "Free FedEx® Delivery",
+            "text": "<p>All prices include customs duties and taxes. Orders above 200 USD ship for free.</p><p><a href=\"https://satisfyrunning.com/pages/faq\">Learn more</a></p>",
+            "link": ""
+          }
+        },
+        "icon_ncfydc": {
+          "type": "icon",
+          "settings": {
+            "scale": 1,
+            "show_icon": true,
+            "title": "Free & Easy Returns",
+            "text": "<p>Free returns on all orders within 14 days from the delivery date.</p><p><a href=\"https://satisfyrunning.com/pages/faq\">Learn more</a></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_g9fEzY",
+        "icon_YUWUkg",
+        "icon_ncfydc"
+      ],
+      "settings": {
+        "title": "What makes us different",
+        "icon_size": 95,
+        "per_row": 3,
+        "text_size": 80,
+        "text_alignment": "left",
+        "heading_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "",
+        "color_filter": "none",
+        "animation": "none",
+        "mobile_icon_size": 50,
+        "mobile_per_row": "1",
+        "base_width": 90,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": ".dsgn-pck__inner-content {\ngrid-template-columns: minmax(0, 1fr) minmax(0, 3fr);\ngrid-gap: 10px;\n}\n.dsgn-pck__image__wrapper {\n  align-self: flex-start;\n  margin: unset;\n}",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
     }
   },
   "order": [
@@ -775,6 +839,7 @@
     "design_pack_gallery_text_overlay_RLKdhN",
     "design_pack_image_with_text_w3VmPk",
     "newsletter_3LtTxi",
-    "design_pack_image_with_text_VjCp49"
+    "design_pack_image_with_text_VjCp49",
+    "design_pack_value_proposition_horizontal_E3bBiY"
   ]
 }
