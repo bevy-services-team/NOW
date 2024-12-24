@@ -362,7 +362,7 @@
         "max_width": "",
         "inner_padding": 40,
         "outer_margin": 40,
-        "custom_css": "{\n  --dp-button-padding: 6px 20px 5px;\n  --dp-body-size: 16px;\n}\n\n.dsgn-pck__button {\n  --dp-body-size: 12.6px;\n}\n\n.dsgn-pck__image__wrapper img {\n  border-radius: 4px;\n}",
+        "custom_css": "{\n  --dp-button-padding: 6px 20px 5px;\n  --dp-body-size: 16px;\n--dp-small-heading-size: 42px;\n}\n\n.dsgn-pck__button {\n  --dp-body-size: 12.6px;\n}\n\n.dsgn-pck__image__wrapper img {\n  border-radius: 4px;\n}",
         "mobile_custom_css": "",
         "anchor_id": "",
         "override_theme_font": false,

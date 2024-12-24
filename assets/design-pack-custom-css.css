@@ -64,10 +64,10 @@
 [id^="DP--"] h5,
 [id^="DP--"] h6,
 .dsgn-pck__small-heading {
-  font-family: Suisse Medium Sans !important;
-  font-weight: 600 !important;
-  line-height: 1.8 !important;
-  letter-spacing: 0.2px !important;
+  font-family: Suisse Bold Sans !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  letter-spacing: 0.5px !important;
 }
 
 [id^="DP--"] p,
