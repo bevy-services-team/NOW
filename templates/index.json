@@ -307,7 +307,7 @@
             "external_link": false,
             "enable_lightbox": false,
             "text_position": "center center",
-            "text_background_color": ""
+            "text_background_color": "linear-gradient(228deg, rgba(21, 209, 252, 0.29) 14%, rgba(187, 48, 254, 0.2) 83%)"
           }
         },
         "image_zr8pEH": {
@@ -362,7 +362,7 @@
         "max_width": "",
         "inner_padding": 40,
         "outer_margin": 40,
-        "custom_css": "",
+        "custom_css": ".dsgn-pck__image__wrapper img {\n  border-radius: 4px;\n}",
         "mobile_custom_css": "",
         "anchor_id": "",
         "override_theme_font": false,
