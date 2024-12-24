@@ -1,0 +1,12 @@
+[id^="DP--"] .dsgn-pck__image__wrapper--main::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: '';
+    border-radius: 4px;
+    display: block;
+    background: linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%);
+    z-index: 0;
+}
