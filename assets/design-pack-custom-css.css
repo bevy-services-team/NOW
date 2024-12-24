@@ -1,3 +1,6 @@
+[id^="DP--"] {
+  --image-with-text-overlay: linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%);
+}
 [id^="DP--"] .dsgn-pck__image__wrapper--main::after {
     position: absolute;
     top: 0;
@@ -7,6 +10,6 @@
     content: '';
     border-radius: 4px;
     display: block;
-    background: linear-gradient(228deg, rgba(0, 0, 0, 0.2) 14%, rgba(0, 0, 0, 0.2) 83%);
+    background: var(--image-with-text-overlay);
     z-index: 0;
 }
