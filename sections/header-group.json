@@ -27,14 +27,22 @@
             "text": "SHOP THE ORIGINS COLLECTION",
             "link": "shopify://collections"
           }
+        },
+        "announcement_GLhtHW": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_jRe9P4",
-        "announcement_7GqTXF"
+        "announcement_7GqTXF",
+        "announcement_GLhtHW"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "show_line_separator": true,
         "show_social": true,
         "auto_rotate": true,
