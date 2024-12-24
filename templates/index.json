@@ -801,7 +801,7 @@
         "background_color": "",
         "color_filter": "none",
         "animation": "none",
-        "mobile_icon_size": 50,
+        "mobile_icon_size": 75,
         "mobile_per_row": "1",
         "base_width": 90,
         "max_width": "",
