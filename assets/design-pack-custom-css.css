@@ -44,6 +44,11 @@
 }
 
 [id^="DP--"].dsgn-pck__gallery-grid {
+  --dp-body-size: 16px;
+  --dp-small-heading-size: 42px;
+}
+
+[id^="DP--"].dsgn-pck__gallery-grid .dsgn-pck__button {
   --dp-button-padding: 6px 20px 5px;
   --dp-body-size: 12.6px;
 }
