@@ -693,6 +693,74 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "design_pack_image_with_text_VjCp49": {
+      "type": "design_pack_-_image_with_text",
+      "blocks": {
+        "heading_WaiJmD": {
+          "type": "heading",
+          "settings": {
+            "title": "Get on the List",
+            "block_heading_color": "",
+            "block_heading_size": "",
+            "enable_custom_font": false,
+            "custom_font": "abel_n4",
+            "heading_level": "h2"
+          }
+        },
+        "text_aPe6wQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up for early access to drops, exclusive launches, and running culture from Possessed Magazine.</p>"
+          }
+        },
+        "newsletter_Pkxtra": {
+          "type": "newsletter",
+          "settings": {
+            "layout": "compact",
+            "email_label": "Email address",
+            "submit_label": "Submit",
+            "show_first_name": false,
+            "first_name_label": "First name",
+            "show_last_name": false,
+            "last_name_label": "Last name",
+            "button_label_color": "#FFFFFF",
+            "button_background_color": "#283144",
+            "button_radius": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_WaiJmD",
+        "text_aPe6wQ",
+        "newsletter_Pkxtra"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bloc-Possessed-Style-Issue-Desktop_7_2000x.progressive_ac37fcc6-bf76-401d-93f8-ff6ef25b8c91.png",
+        "image_crop": "none",
+        "image_link": "",
+        "image_position": "left",
+        "show_content_below": true,
+        "text_alignment": "left",
+        "text_size": 100,
+        "text_width": 50,
+        "text_color": "#283144",
+        "text_background_color": "#bab0a4",
+        "background_color": "",
+        "show_background_image": false,
+        "animation": "none",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 60,
+        "outer_margin": 0,
+        "custom_css": ".dsgn-pck__grid--main {\n  gap: 32px;\n}",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif",
+        "enable_metafield_detect": false
+      }
     }
   },
   "order": [
@@ -705,6 +773,7 @@
     "design_pack_image_with_text_GyVGee",
     "design_pack_gallery_text_overlay_RLKdhN",
     "design_pack_image_with_text_w3VmPk",
-    "newsletter_3LtTxi"
+    "newsletter_3LtTxi",
+    "design_pack_image_with_text_VjCp49"
   ]
 }
