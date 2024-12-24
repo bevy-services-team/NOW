@@ -261,6 +261,7 @@
         "slide_N8cd4C",
         "slide_FpmHde"
       ],
+      "disabled": true,
       "settings": {
         "enable_lightbox": false,
         "image_crop": "none",
@@ -292,6 +293,83 @@
         "main_font": "sans-serif"
       }
     },
+    "design_pack_gallery_text_overlay_6eidfn": {
+      "type": "design_pack_-_gallery_text-overlay",
+      "blocks": {
+        "image_jYfwyG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-Pertex-Desktop__2_900x.progressive_2bab559e-9d5d-4480-8ae3-9d185d5b2a0f.png",
+            "title": "Product title",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh enim, ornare at consequat sed, placerat quis libero. Curabitur id nulla ut nunc aliquam sodales.</p>",
+            "button_label": "View more",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": ""
+          }
+        },
+        "image_zr8pEH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-CloudMerino-Desktop__2_900x.progressive_f4a2a810-e18a-468b-916a-aa62ada36a5f.png",
+            "title": "Product title",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh enim, ornare at consequat sed, placerat quis libero. Curabitur id nulla ut nunc aliquam sodales.</p>",
+            "button_label": "View more",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": ""
+          }
+        },
+        "image_wPaGYd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloc-Mothtech-Desktop__4_900x.progressive_f21fab4a-aa4e-4878-9ede-44b75c6d0c1e.png",
+            "title": "Product title",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh enim, ornare at consequat sed, placerat quis libero. Curabitur id nulla ut nunc aliquam sodales.</p>",
+            "button_label": "View more",
+            "link": "",
+            "external_link": false,
+            "enable_lightbox": false,
+            "text_position": "center center",
+            "text_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jYfwyG",
+        "image_zr8pEH",
+        "image_wPaGYd"
+      ],
+      "settings": {
+        "enable_hover": false,
+        "per_row": 3,
+        "image_crop": "none",
+        "grid_alignment": "bottom_top",
+        "gutter": 32,
+        "mobile_per_row": 1,
+        "text_size": 100,
+        "text_color": "#ffffff",
+        "button_label_color": "#FAFAFA",
+        "button_background_color": "#283144",
+        "button_radius": 0,
+        "background_color": "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "animation": "none",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 40,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
     "newsletter_3LtTxi": {
       "type": "newsletter",
       "settings": {
@@ -309,6 +387,7 @@
     "image_banner_BYwpLM",
     "design_pack_featured_collection_slider_k8XNGz",
     "design_pack_gallery_scroll_FQiRE4",
+    "design_pack_gallery_text_overlay_6eidfn",
     "newsletter_3LtTxi"
   ]
 }
