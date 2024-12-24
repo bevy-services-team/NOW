@@ -99,11 +99,11 @@
             "collection": "all",
             "title": "New Arrivals",
             "visible_products": 8,
-            "button_label": "View all products",
+            "button_label": "View All",
             "button_link": "",
             "button_label_color": "#ffffff",
             "button_background_color": "#000000",
-            "button_radius": 50
+            "button_radius": 4
           }
         },
         "collection_9zK6H6": {
