@@ -757,6 +757,7 @@
         "icon_g9fEzY": {
           "type": "icon",
           "settings": {
+            "image": "shopify://shop_images/noun-question-sign-1150930.svg",
             "scale": 1,
             "show_icon": true,
             "title": "Get Help Buying",
@@ -767,6 +768,7 @@
         "icon_YUWUkg": {
           "type": "icon",
           "settings": {
+            "image": "shopify://shop_images/noun-box-5896891.svg",
             "scale": 1,
             "show_icon": true,
             "title": "Free FedEx® Delivery",
@@ -777,6 +779,7 @@
         "icon_ncfydc": {
           "type": "icon",
           "settings": {
+            "image": "shopify://shop_images/noun-return-537899.svg",
             "scale": 1,
             "show_icon": true,
             "title": "Free & Easy Returns",
@@ -807,7 +810,7 @@
         "max_width": "",
         "inner_padding": 40,
         "outer_margin": 0,
-        "custom_css": ".dsgn-pck__inner-content {\ngrid-template-columns: minmax(0, 1fr) minmax(0, 3fr);\ngrid-gap: 10px;\n}\n.dsgn-pck__image__wrapper {\n  align-self: flex-start;\n  margin: unset;\n}",
+        "custom_css": ".dsgn-pck__inner-content {\ngrid-template-columns: minmax(0, 1fr) minmax(0, 5fr);\ngrid-gap: 20px;\n}\n.dsgn-pck__image__wrapper {\n  align-self: flex-start;\n  margin: unset;\n}",
         "mobile_custom_css": "",
         "anchor_id": "",
         "override_theme_font": false,
