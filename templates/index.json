@@ -300,8 +300,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-Pertex-Desktop__2_900x.progressive_2bab559e-9d5d-4480-8ae3-9d185d5b2a0f.png",
-            "title": "Hats",
-            "text": "<p>LIGHTWEIGHT ELEMENTAL PROTECTION</p>",
+            "title": "Tops",
+            "text": "<p>Lightweight, breathable and performant</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -314,8 +314,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-CloudMerino-Desktop__2_900x.progressive_f4a2a810-e18a-468b-916a-aa62ada36a5f.png",
-            "title": "Tops",
-            "text": "<p>FOR THOSE WHO RUN TO FEEL FREE</p>",
+            "title": "Bottoms",
+            "text": "<p>Designed to move how with you</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -328,8 +328,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-Mothtech-Desktop__4_900x.progressive_f21fab4a-aa4e-4878-9ede-44b75c6d0c1e.png",
-            "title": "Shorts",
-            "text": "<p>THE HEART OF YOUR KIT</p>",
+            "title": "Accessories",
+            "text": "<p>Build your movement toolkit</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -376,7 +376,7 @@
         "heading_njxhfT": {
           "type": "heading",
           "settings": {
-            "title": "Shop the Silhouette",
+            "title": "Shop the Kit",
             "block_heading_color": "",
             "block_heading_size": "",
             "heading_level": "h2"
@@ -429,7 +429,7 @@
         "heading_LUBm7p": {
           "type": "heading",
           "settings": {
-            "title": "Attention-grabbing headline",
+            "title": "DNA Racing Team Kit",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -440,7 +440,7 @@
         "text_mr4mWT": {
           "type": "text",
           "settings": {
-            "text": "<p>Drag and drop block options like heading, text, buttons, dividers, and more.</p>"
+            "text": "<p>You're designed to run - just like our DNA Racing Team Kit. Ultra-light perforated fabric keeps you cool when the race heats up.</p>"
           }
         },
         "icons_3bzTGy": {
@@ -515,8 +515,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-Ghostfleece-Desktop_2_900x.progressive_b896212e-57ec-402d-8896-3e6ed6408bdc.png",
-            "title": "GhostFleece™",
-            "text": "<p>Polartec® Powered Insulation</p>",
+            "title": "Pointillism®",
+            "text": "<p>Grid mesh system designed for breathability</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -529,8 +529,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-CloudMerino-Desktop_5_900x.progressive_415e6612-c649-48a2-bf9c-1de40192e5c7.png",
-            "title": "Pertex®",
-            "text": "<p>BREATHABLE WATERPROOF PROTECTION</p>",
+            "title": "Morph®",
+            "text": "<p>Engineered for speed</p>",
             "button_label": "SHOP",
             "link": "",
             "external_link": false,
@@ -543,8 +543,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Bloc-Mothtech-Desktop__4_900x.progressive_f21fab4a-aa4e-4878-9ede-44b75c6d0c1e.png",
-            "title": "CloudMerino™",
-            "text": "<p>Featherweight Thermoregulation</p>",
+            "title": "Recover™",
+            "text": "<p>Heavyweight & comfortable cotton</p>",
             "button_label": "Shop",
             "link": "",
             "external_link": false,
@@ -598,13 +598,13 @@
         "small_text_RFRcwU": {
           "type": "small_text",
           "settings": {
-            "small_text": "<p>New arrivals</p>"
+            "small_text": "<p>Recommended Kit</p>"
           }
         },
         "heading_4FWHVK": {
           "type": "heading",
           "settings": {
-            "title": "Attention-grabbing headline",
+            "title": "DNA Sleeves",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -615,7 +615,7 @@
         "text_CrHBBk": {
           "type": "text",
           "settings": {
-            "text": "<p>Drag and drop block options like heading, text, buttons, dividers, and more.</p>"
+            "text": "<p>Stay warm and comfortable in the shoulder seasons</p>"
           }
         },
         "icons_6GErU6": {
@@ -689,7 +689,7 @@
         "heading_WaiJmD": {
           "type": "heading",
           "settings": {
-            "title": "Get on the List",
+            "title": "Get the drop on the latest drops",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -700,7 +700,7 @@
         "text_aPe6wQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up for early access to drops, exclusive launches, and running culture from Possessed Magazine.</p>"
+            "text": "<p>Sign up for early access to new drops, exclusive launches, and promotions</p>"
           }
         },
         "newsletter_Pkxtra": {
