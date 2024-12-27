@@ -376,7 +376,7 @@
         "heading_njxhfT": {
           "type": "heading",
           "settings": {
-            "title": "Shop the Kit",
+            "title": "Shop the Race Kit",
             "block_heading_color": "",
             "block_heading_size": "",
             "heading_level": "h2"
@@ -423,13 +423,13 @@
         "small_text_zbrHL3": {
           "type": "small_text",
           "settings": {
-            "small_text": "<p>New arrivals</p>"
+            "small_text": "<p>Race Kit</p>"
           }
         },
         "heading_LUBm7p": {
           "type": "heading",
           "settings": {
-            "title": "DNA Racing Team Kit",
+            "title": "DNA Race Team",
             "block_heading_color": "",
             "block_heading_size": "",
             "enable_custom_font": false,
@@ -497,7 +497,7 @@
         "animation": "none",
         "base_width": 100,
         "max_width": "",
-        "inner_padding": 60,
+        "inner_padding": 0,
         "outer_margin": 0,
         "custom_css": "{\n--image-with-text-overlay: none;\n}",
         "mobile_custom_css": "",
