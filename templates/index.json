@@ -416,10 +416,11 @@
         "image_TWjtDF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/433_1313_front.png",
             "autoplay": true,
             "loop": true,
-            "title": "Check out these products.",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nibh enim, ornare at consequat sed, placerat quis libero. Curabitur id nulla ut nunc aliquam sodales.</p>",
+            "title": "",
+            "text": "",
             "button_label": "",
             "link": "",
             "text_position": "center center",
@@ -427,7 +428,7 @@
             "button_label_color": "#FFFFFF",
             "button_background_color": "#121212",
             "button_radius": 0,
-            "text_background_color": "linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) 100%)",
+            "text_background_color": "",
             "row_start": 1,
             "row_height": 2,
             "col_start": 1,
@@ -449,8 +450,8 @@
           "example-t-shirt-2"
         ],
         "per_row": 4,
-        "gap": 20,
-        "image_crop": "1:1",
+        "gap": 40,
+        "image_crop": "2:3",
         "show_secondary_image": true,
         "show_product_title": true,
         "show_product_price": true,
