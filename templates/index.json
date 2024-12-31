@@ -416,7 +416,7 @@
         "image_TWjtDF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/433_1313_front.png",
+            "image": "shopify://shop_images/IMG_R_0022.heic",
             "autoplay": true,
             "loop": true,
             "title": "",
@@ -467,10 +467,10 @@
         "border_width": 0,
         "background_color": "",
         "base_width": 95,
-        "max_width": "1400",
+        "max_width": "1200",
         "inner_padding": 40,
         "outer_margin": 40,
-        "custom_css": "",
+        "custom_css": ".dsgn-pck__editorial-image img {\n  object-fit: contain;\n}",
         "mobile_custom_css": "",
         "anchor_id": "",
         "override_theme_font": false,
