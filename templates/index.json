@@ -416,7 +416,7 @@
         "image_TWjtDF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/JAY_FRONT.png",
+            "image": "shopify://shop_images/JAY_FRONT_cbedc23c-afea-49b2-a07f-c329e37c19b8.png",
             "autoplay": true,
             "loop": true,
             "title": "",
@@ -467,7 +467,7 @@
         "border_width": 0,
         "background_color": "",
         "base_width": 95,
-        "max_width": "1400",
+        "max_width": "1200",
         "inner_padding": 0,
         "outer_margin": 0,
         "custom_css": ".dsgn-pck__editorial-image img {\n  object-fit: contain;\n}\n.dsgn-pck__product-card__info  {\n  text-align: center;\n}\n.dsgn-pck__product-card__info \n p.dsgn-pck__product-title {\nfont-family: Suisse Bold Sans !important;\nfont-size: 18px;\n}",
