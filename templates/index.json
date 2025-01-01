@@ -416,7 +416,7 @@
         "image_TWjtDF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_R_0022.heic",
+            "image": "shopify://shop_images/JAY_FRONT.png",
             "autoplay": true,
             "loop": true,
             "title": "",
@@ -652,6 +652,75 @@
         "override_theme_font": false,
         "heading_font": "serif",
         "main_font": "sans-serif"
+      }
+    },
+    "design_pack_product_list_lifestyle_4Ab8Mb": {
+      "type": "design_pack_-_product-list_-_lifestyle",
+      "blocks": {
+        "image_nTFgTe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_R_0022.heic",
+            "autoplay": true,
+            "loop": true,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "text_position": "center center",
+            "text_color": "#FFFFFF",
+            "button_label_color": "#FFFFFF",
+            "button_background_color": "#121212",
+            "button_radius": 0,
+            "text_background_color": "",
+            "row_start": 1,
+            "row_height": 2,
+            "col_start": 1,
+            "col_width": 2,
+            "mobile_row_start": 2,
+            "mobile_col_start": "1",
+            "mobile_col_width": "2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nTFgTe"
+      ],
+      "settings": {
+        "product_list": [
+          "racing-half-tight",
+          "dna-shorts",
+          "dna-arm-sleeve",
+          "example-t-shirt-2"
+        ],
+        "per_row": 4,
+        "gap": 24,
+        "image_crop": "none",
+        "show_secondary_image": true,
+        "show_product_title": true,
+        "show_product_price": true,
+        "show_product_info_hover": false,
+        "show_product_label": true,
+        "mobile_per_row": "2",
+        "mobile_gap": 20,
+        "text_size": 100,
+        "text_color": "#3A3A3A",
+        "product_background_color": "#ffffff",
+        "border_color": "#121212",
+        "border_radius": 0,
+        "border_width": 0,
+        "background_color": "",
+        "base_width": 95,
+        "max_width": "1200",
+        "inner_padding": 0,
+        "outer_margin": 0,
+        "custom_css": ".dsgn-pck__editorial-image img {\n  object-fit: contain;\n}\n.dsgn-pck__product-card__info  {\n  text-align: center;\n}\n.dsgn-pck__product-card__info \n p.dsgn-pck__product-title {\nfont-family: Suisse Bold Sans !important;\nfont-size: 18px;\n}",
+        "mobile_custom_css": "",
+        "anchor_id": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif",
+        "enable_metafield_detect": false
       }
     },
     "design_pack_image_with_text_w3VmPk": {
@@ -909,6 +978,7 @@
     "design_pack_product_list_lifestyle_TLXwRE",
     "design_pack_image_with_text_GyVGee",
     "design_pack_gallery_text_overlay_RLKdhN",
+    "design_pack_product_list_lifestyle_4Ab8Mb",
     "design_pack_image_with_text_w3VmPk",
     "design_pack_image_with_text_VjCp49",
     "design_pack_value_proposition_horizontal_E3bBiY",
