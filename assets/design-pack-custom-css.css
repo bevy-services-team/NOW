@@ -111,5 +111,12 @@ h5,
   letter-spacing: 0.5px;
   line-height: 1;
 }
-            
+     
+     
+/*THEME       */
+.product .product__media-wrapper {
+  background: #f4f4f4;
+  padding: 20px;
+  
+}
         
