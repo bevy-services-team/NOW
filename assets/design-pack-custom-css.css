@@ -115,8 +115,12 @@ h5,
      
 /*THEME       */
 .product .product__media-wrapper {
-  background: #f4f4f4;
+  background: #f7f7f7;
   padding: 4em;
+}
+
+.product__media.media--transparent {
+  background: #f7f7f7;
   
 }
         
