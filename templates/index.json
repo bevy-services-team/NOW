@@ -550,6 +550,7 @@
         "text_mr4mWT",
         "icons_3bzTGy"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/JAY_FRONT.png",
         "image_crop": "none",
@@ -794,6 +795,7 @@
         "text_CrHBBk",
         "icons_6GErU6"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/M-BLACK.webp",
         "image_crop": "none",
